@@ -21,7 +21,7 @@ class SearchBar extends Component {
                     <input
                         value={this.state.term}
                         onChange={event => this.setState({term: event.target.value})}
-                        className='searchbar' type="text" placeholder='Search'/>
+                        className='searchbar' type="text" placeholder='Search images'/>
                     <button type='submit' className='searchButton'>
                         <i className='fa fa-search'></i>
                     </button>
